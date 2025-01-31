@@ -45,7 +45,7 @@ function App() {
     }
     else{
       try{
-        const req = await axios.post(`https://todo-list-application-941e508b6feb.herokuapp.com/api/new`,data);
+        const req = await axios.post(`https://todo-list-server-c69d117e8112.herokuapp.com/api/new`,data);
         toast.success(`Task added successfully`);
       }
       catch(err){
